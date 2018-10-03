@@ -1,0 +1,387 @@
+body{
+  font-family: 'Itim', cursive;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.Text-Shadow{
+  font-weight: 400;
+  text-shadow: 1px 1px 2px #000;
+}
+.FontSize{
+  font-size: 18px;
+}
+
+.Center{
+  text-align: center;
+}
+.Color{
+  color: #e9c81e;
+}
+.fa-2x{
+  font-size: 25px;
+}
+.Slow{
+   animation-duration: 1.5s;
+   animation-delay: 0.5s;
+}
+.Slower{
+   animation-duration: 2s;
+   animation-delay: 0.5s;
+}
+.MarginAccordion{
+  margin-top: 7rem;
+}
+.rounded{
+  border-radius: 0.75rem !important;
+}
+.PaddingTop{
+  padding-top: 3rem;
+}
+#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6,#arrow7,#arrow8{
+  float: right;
+  padding: 16px;
+}
+/* Navigation-Bar */
+#logo {
+  width: 80px;
+  height: 60px;
+}
+#logoFooter {
+  width: 170px;
+  height: 120px;
+}
+
+#mainNav {
+  font-family: 'Itim', cursive;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
+#mainNav .navbar-brand {
+  color: #e9c81e;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #e9c81e;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #e9c81e;
+}
+
+#mainNav .navbar-nav .nav-item>#booking:hover {
+  color: #e9c81e;
+  background-color: #1C2331;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link .dropdown .dropdown-toggle {
+    font-size: 1.3rem;
+  }
+}
+
+.dropdown .dropdown-toggle {
+  color: aliceblue;
+  margin-left: 5px;
+  margin-right: 3px;
+  font-size: 1.1rem;
+}
+
+.dropdown .dropdown-toggle:hover {
+  color: #e9c81e;
+}
+
+.navbar .dropdown-menu a {
+  color: #fff;
+}
+
+.navbar .dropdown-menu a:hover {
+  color: #e9c81e;
+  background-color: inherit;
+}
+/* End-Navigation-Bar */
+
+/* Carousel */
+.carousel-caption {
+  top: 25%;
+}
+
+.Welcome {
+  font-family: 'Jua', sans-serif;
+  color: #e9c81e;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.strong {
+  color: #e9c81e;
+  font-family: 'Jua', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #000;
+}
+.carousel-fade .carousel-item{
+  transition-duration: 1s;
+}
+#carouselExampleIndicators::after {
+  background: #ccc;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  html, body, header, .carousel {
+    height: 10vh;
+  }
+  .PaddingTop{
+    padding-top: 8rem;
+  }
+  .custom-select{
+    width: 70%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    color: black;
+    margin: 15px 0px 0px 52px;
+    background-color: #e9c81e;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html, body, header, .carousel {
+    height: 30vh;
+  }
+  .PaddingTop{
+    padding-top: 8rem;
+  }
+  .custom-select{
+    width: 45%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    float: right;
+    color: black;
+    background-color: #e9c81e;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html, body, header, .carousel {
+    height: 41vh;
+  }
+  .PaddingTop{
+    padding-top: 3rem;
+  }
+  .custom-select{
+    width: 45%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    float: right;
+    color: black;
+    background-color: #e9c81e;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html, body, header, .carousel {
+    height: 53vh;
+  }
+  .PaddingTop{
+    padding-top: 3rem;
+  }
+  .custom-select{
+    width: 45%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    float: right;
+    color: black;
+    background-color: #e9c81e;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1366.98px) {
+  html, body, header, .carousel {
+    height: 85vh;
+  }
+  .custom-select{
+    width: 45%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    float: right;
+    color: black;
+    background-color: #e9c81e;
+  }
+}
+
+/* Extra large devices (large desktops, 1367px and up) */
+@media (min-width: 1367px) {
+  html, body, header, .carousel {
+    height: 75vh;
+  }
+  .PaddingTop{
+    padding-top: 3rem;
+  }
+  .custom-select{
+    width: 45%;
+    margin-top: 8px;
+  }
+  .btn.btn-sm{
+    font-size: 18px;
+    float: right;
+    color: black;
+    background-color: #e9c81e;
+  }
+}
+/* End-Carousel */
+#divider1,#divider3,#dividerCenter1,#dividerCenter2,#dividerCenter3,#dividerBottom1,#dividerBottom2,#dividerBottom3{
+  height: auto;
+  max-width: 100%;
+}
+/* Accordion-content */
+#Show-img-first,#Show-img-second{
+  height: 428px;
+}
+.card{
+  border-radius: 15px;
+}
+.btn.btn-link{
+  color: #e9c81e!important;
+  text-decoration: none;
+}
+.card-header{
+  border-bottom: none;
+  padding: 0;
+}
+.SelectBox{
+  padding-top: 1rem;
+}
+.btn.btn-sm:hover{
+  background-color: #ccc;
+}
+
+.thai-massage{
+  background-image: url('../img/thai-massage.jpg');
+  background-size: cover;
+}
+.oil-massage{
+  background-image: url('../img/oil-massage.jpg');
+  background-size: cover;
+}
+.face-massage{
+  background-image: url('../img/face-massage.jpg');
+  background-size: cover;
+}
+.foot-massage{
+  background-image: url('../img/foot-massage.jpg');
+  background-size: cover;
+}
+.BloomingPackage{
+  background-image: url('../img/BloomingPackage.jpg');
+  background-size: cover;
+}
+.DreamPackage{
+  background-image: url('../img/DreamPackage.jpg');
+  background-size: cover;
+}
+.FullcousePackage{
+  background-image: url('../img/FullcousePackage.jpg');
+  background-size: cover;
+}
+.HaevyPackage{
+  background-image: url('../img/HaevyPackage.jpg');
+  background-size: cover;
+}
+/* End Accordion-content */
+.carousel-indicators .active{
+  background-color: #000;
+}
+/* Promotion */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #carouselExampleFade{
+    height: 32vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #carouselExampleFade{
+    height: 40vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #carouselExampleFade{
+    height: 55vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #carouselExampleFade{
+    height: 70vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1366.98px) {
+  #carouselExampleFade{
+    height: 87vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1367px and up) */
+@media (min-width: 1367px) {
+  #carouselExampleFade{
+    height: 70vh;
+  }
+}
+/* End Promotion */
+
+/* Footer */
+.list-group-item.disabled{
+  color: #e9c81e;
+  background-color:#1C2331;
+  border: none;
+}
+.list-group-item{
+  background-color:#1C2331;
+  border: none;
+}
+.list-group-item-action:hover{
+  background-color:#1C2331;
+  color: #e9c81e;
+}
+footer.page-footer .footer-copyright{
+  background-color: #1C2331;
+}
+/* End Footer */
