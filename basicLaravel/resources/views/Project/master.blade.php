@@ -27,7 +27,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar wow fadeInUp Slow" id="mainNav">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar wow fadeIn Slow" id="mainNav">
     <div class="container">
 
       <!-- Brand -->

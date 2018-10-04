@@ -10,11 +10,11 @@
       <img class="d-none d-sm-block w-100 " src="img/slide-2.jpg" alt="First slide">
       <div class="carousel-caption d-none d-sm-block">
         <h1>
-              <strong class="Welcome wow fadeInUp Slow">Welcome To Health Land</strong>
+              <strong class="Welcome wow fadeInUp Slower">Welcome To Health Land</strong>
             </h1>
 
         <p>
-          <strong class="strong wow fadeInDown Slow">The Best Massage&Spa of The Year </strong>
+          <strong class="strong wow fadeInDown Slower">The Best Massage&Spa of The Year </strong>
         </p>
       </div>
     </div>
@@ -22,11 +22,11 @@
       <img class="d-none d-sm-block w-100" src="img/slide-3.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-sm-block">
         <h1>
-              <strong class="Welcome wow fadeInUp Slow">Welcome To Health Land</strong>
+              <strong class="Welcome wow fadeInUp Slower">Welcome To Health Land</strong>
             </h1>
 
         <p>
-          <strong class="strong wow fadeInDown Slow">The Best Massage&Spa of The Year </strong>
+          <strong class="strong wow fadeInDown Slower">The Best Massage&Spa of The Year </strong>
         </p>
       </div>
     </div>
@@ -34,11 +34,11 @@
       <img class="d-none d-sm-block w-100" src="img/slide-4.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-sm-block">
         <h1>
-              <strong class="Welcome wow fadeInUp Slow">Welcome To Health Land</strong>
+              <strong class="Welcome wow fadeInUp Slower">Welcome To Health Land</strong>
             </h1>
 
         <p>
-          <strong class="strong wow fadeInDown Slow">The Best Massage&Spa of The Year </strong>
+          <strong class="strong wow fadeInDown Slower">The Best Massage&Spa of The Year </strong>
         </p>
       </div>
     </div>

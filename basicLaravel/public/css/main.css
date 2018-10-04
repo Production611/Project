@@ -445,3 +445,75 @@ footer.page-footer .footer-copyright {
   border-radius: 1.25rem;
 }
 /* End Page About */
+
+/* Page Team */
+.maincontainer{
+  position: relative;
+  width: 250px;
+  height: 375px;
+  border-radius: 10px;
+
+}
+.thecard{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+
+}
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+.thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: green;
+  color: #333;
+  transform: rotateY(180deg);
+}
+@media (max-width: 575.98px) {
+  .Margin-Left {
+    margin-left: 3rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .Margin-Left {
+    margin-left: 9rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Margin-Left {
+    margin-left: 4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Margin-Left {
+    margin-left: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1366.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1367px and up) */
+@media (min-width: 1367px) {
+
+}
+/* End Page Team */
