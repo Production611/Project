@@ -15,10 +15,6 @@ body {
   font-size: 18px;
 }
 
-.Text-White {
-  color: white;
-}
-
 .Center {
   text-align: center;
 }
@@ -441,11 +437,13 @@ footer.page-footer .footer-copyright {
 }
 
 /* End Footer */
-/* Page About */
-.BackgroundContent {
-  background-color: #575758;
-}
 
+/* Page About */
+
+
+.rounded-about{
+  border-radius: 1.25rem;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
@@ -456,21 +454,12 @@ footer.page-footer .footer-copyright {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
-  .About {
-    padding-top: 78px;
-    width: 750px;
-  }
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
-  .About {
-    padding-top: 78px;
-    width: 970px;
-  }
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1366.98px) {}
-  .About {
-    padding-top: 78px;
-    width: 1170px;
-  }
+
 /* Extra large devices (large desktops, 1367px and up) */
 @media (min-width: 1367px) {}
