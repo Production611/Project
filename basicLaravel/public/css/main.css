@@ -1,53 +1,69 @@
-body{
+body {
   font-family: 'Itim', cursive;
 }
 
 .container-fluid {
   padding: 0;
 }
-.Text-Shadow{
+
+.Text-Shadow {
   font-weight: 400;
   text-shadow: 1px 1px 2px #000;
 }
-.FontSize{
+
+.FontSize {
   font-size: 18px;
 }
 
-.Center{
+.Text-White {
+  color: white;
+}
+
+.Center {
   text-align: center;
 }
-.Color{
+
+.Color {
   color: #e9c81e;
 }
-.fa-2x{
+
+.fa-2x {
   font-size: 25px;
 }
-.Slow{
-   animation-duration: 1.5s;
-   animation-delay: 0.5s;
+
+.Slow {
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
 }
-.Slower{
-   animation-duration: 2s;
-   animation-delay: 0.5s;
+
+.Slower {
+  animation-duration: 2s;
+  animation-delay: 0.5s;
 }
-.MarginAccordion{
+
+.MarginAccordion {
   margin-top: 7rem;
 }
-.rounded{
+
+.rounded {
   border-radius: 0.75rem !important;
 }
-.PaddingTop{
+
+.PaddingTop {
   padding-top: 3rem;
 }
-#arrow1,#arrow2,#arrow3,#arrow4,#arrow5,#arrow6,#arrow7,#arrow8{
+
+#arrow1, #arrow2, #arrow3, #arrow4, #arrow5, #arrow6, #arrow7, #arrow8 {
   float: right;
   padding: 16px;
 }
+
 /* Navigation-Bar */
 #logo {
   width: 80px;
   height: 60px;
 }
+
 #logoFooter {
   width: 170px;
   height: 120px;
@@ -111,8 +127,8 @@ body{
   color: #e9c81e;
   background-color: inherit;
 }
-/* End-Navigation-Bar */
 
+/* End-Navigation-Bar */
 /* Carousel */
 .carousel-caption {
   top: 25%;
@@ -131,9 +147,11 @@ body{
   font-weight: 700;
   text-shadow: 2px 2px 3px #000;
 }
-.carousel-fade .carousel-item{
+
+.carousel-fade .carousel-item {
   transition-duration: 1s;
 }
+
 #carouselExampleIndicators::after {
   background: #ccc;
   bottom: 0;
@@ -144,19 +162,23 @@ body{
   width: 100%;
   z-index: 1;
 }
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   html, body, header, .carousel {
     height: 10vh;
   }
-  .PaddingTop{
+
+  .PaddingTop {
     padding-top: 8rem;
   }
-  .custom-select{
+
+  .custom-select {
     width: 70%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     color: black;
     margin: 15px 0px 0px 52px;
@@ -169,14 +191,17 @@ body{
   html, body, header, .carousel {
     height: 30vh;
   }
-  .PaddingTop{
+
+  .PaddingTop {
     padding-top: 8rem;
   }
-  .custom-select{
+
+  .custom-select {
     width: 45%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     float: right;
     color: black;
@@ -189,14 +214,17 @@ body{
   html, body, header, .carousel {
     height: 41vh;
   }
-  .PaddingTop{
+
+  .PaddingTop {
     padding-top: 3rem;
   }
-  .custom-select{
+
+  .custom-select {
     width: 45%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     float: right;
     color: black;
@@ -209,14 +237,17 @@ body{
   html, body, header, .carousel {
     height: 53vh;
   }
-  .PaddingTop{
+
+  .PaddingTop {
     padding-top: 3rem;
   }
-  .custom-select{
+
+  .custom-select {
     width: 45%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     float: right;
     color: black;
@@ -229,11 +260,13 @@ body{
   html, body, header, .carousel {
     height: 85vh;
   }
-  .custom-select{
+
+  .custom-select {
     width: 45%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     float: right;
     color: black;
@@ -246,142 +279,198 @@ body{
   html, body, header, .carousel {
     height: 75vh;
   }
-  .PaddingTop{
+
+  .PaddingTop {
     padding-top: 3rem;
   }
-  .custom-select{
+
+  .custom-select {
     width: 45%;
     margin-top: 8px;
   }
-  .btn.btn-sm{
+
+  .btn.btn-sm {
     font-size: 18px;
     float: right;
     color: black;
     background-color: #e9c81e;
   }
 }
+
 /* End-Carousel */
-#divider1,#divider3,#dividerCenter1,#dividerCenter2,#dividerCenter3,#dividerBottom1,#dividerBottom2,#dividerBottom3{
+#divider1, #divider3, #dividerCenter1, #dividerCenter2, #dividerCenter3, #dividerBottom1, #dividerBottom2, #dividerBottom3 {
   height: auto;
   max-width: 100%;
 }
+
 /* Accordion-content */
-#Show-img-first,#Show-img-second{
+#Show-img-first, #Show-img-second {
   height: 428px;
 }
-.card{
+
+.card {
   border-radius: 15px;
 }
-.btn.btn-link{
-  color: #e9c81e!important;
+
+.btn.btn-link {
+  color: #e9c81e !important;
   text-decoration: none;
 }
-.card-header{
+
+.card-header {
   border-bottom: none;
   padding: 0;
 }
-.SelectBox{
+
+.SelectBox {
   padding-top: 1rem;
 }
-.btn.btn-sm:hover{
+
+.btn.btn-sm:hover {
   background-color: #ccc;
 }
 
-.thai-massage{
+.thai-massage {
   background-image: url('../img/thai-massage.jpg');
   background-size: cover;
 }
-.oil-massage{
+
+.oil-massage {
   background-image: url('../img/oil-massage.jpg');
   background-size: cover;
 }
-.face-massage{
+
+.face-massage {
   background-image: url('../img/face-massage.jpg');
   background-size: cover;
 }
-.foot-massage{
+
+.foot-massage {
   background-image: url('../img/foot-massage.jpg');
   background-size: cover;
 }
-.BloomingPackage{
+
+.BloomingPackage {
   background-image: url('../img/BloomingPackage.jpg');
   background-size: cover;
 }
-.DreamPackage{
+
+.DreamPackage {
   background-image: url('../img/DreamPackage.jpg');
   background-size: cover;
 }
-.FullcousePackage{
+
+.FullcousePackage {
   background-image: url('../img/FullcousePackage.jpg');
   background-size: cover;
 }
-.HaevyPackage{
+
+.HaevyPackage {
   background-image: url('../img/HaevyPackage.jpg');
   background-size: cover;
 }
+
 /* End Accordion-content */
-.carousel-indicators .active{
+.carousel-indicators .active {
   background-color: #000;
 }
+
 /* Promotion */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 32vh;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 40vh;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 55vh;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 70vh;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1366.98px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 87vh;
   }
 }
 
 /* Extra large devices (large desktops, 1367px and up) */
 @media (min-width: 1367px) {
-  #carouselExampleFade{
+  #carouselExampleFade {
     height: 70vh;
   }
 }
-/* End Promotion */
 
+/* End Promotion */
 /* Footer */
-.list-group-item.disabled{
+.list-group-item.disabled {
   color: #e9c81e;
-  background-color:#1C2331;
+  background-color: #1C2331;
   border: none;
 }
-.list-group-item{
-  background-color:#1C2331;
+
+.list-group-item {
+  background-color: #1C2331;
   border: none;
 }
-.list-group-item-action:hover{
-  background-color:#1C2331;
+
+.list-group-item-action:hover {
+  background-color: #1C2331;
   color: #e9c81e;
 }
-footer.page-footer .footer-copyright{
+
+footer.page-footer .footer-copyright {
   background-color: #1C2331;
 }
+
 /* End Footer */
+/* Page About */
+.BackgroundContent {
+  background-color: #575758;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+  .About {
+    padding-top: 78px;
+    width: 750px;
+  }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+  .About {
+    padding-top: 78px;
+    width: 970px;
+  }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1366.98px) {}
+  .About {
+    padding-top: 78px;
+    width: 1170px;
+  }
+/* Extra large devices (large desktops, 1367px and up) */
+@media (min-width: 1367px) {}
